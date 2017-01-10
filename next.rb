@@ -95,6 +95,7 @@ def fairground_round(weight, height)
     return "sorry"
   end
 end
+
 def are_you_creative(how_creative)
   if how_creative == "yes"
     return "Wow, you're so creative"
