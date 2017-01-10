@@ -105,3 +105,15 @@ def are_you_creative(how_creative)
     return "wow you've given an answer that I didn't expect you are super creative"
   end
 end
+
+#below are some examples
+puts next_number(99)
+puts multiply(3,3)
+puts length_of_text("How long is your text?")
+puts length_of_name("Colin", "McKean")
+puts bank_balance(1234)
+puts divide_function(9, 3)
+puts long_months(12)
+puts short_month(6)
+puts fairground_round(41, 1.45)
+puts are_you_creative("maybe")
