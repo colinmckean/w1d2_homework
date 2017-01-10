@@ -13,3 +13,11 @@ end
 def length_of_name(first_name, last_name)
   return first_name.length + last_name.length
 end
+
+def bank_balance(pin_code)
+  if pin_code == 1234
+    return 9999.99
+  else
+    return "Incorrect Pin"
+  end
+end
