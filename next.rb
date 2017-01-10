@@ -25,3 +25,34 @@ end
 def divide_function(num1, num2)
   return num1 / num2 
 end
+
+def long_months(month_number)
+  case month_number
+  when 1
+    return "January"
+  when 2
+    return "Febuary"
+  when 3
+    return "March"
+  when 4
+    return "April"
+  when 5
+    return "May"
+  when 6
+    return "June"
+  when 7
+    return "July"
+  when 8
+    return "August"
+  when 9
+    return "September"
+  when 10
+    return "October"
+  when 11
+    return "November"
+  when 12
+    return "December"
+  else
+    "enter valid number for month"
+  end
+end
