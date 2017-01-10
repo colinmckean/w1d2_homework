@@ -87,3 +87,11 @@ def short_month(month_number)
     return "enter valid number for month"
   end
 end
+
+def fairground_round(weight, height)
+  if weight > 40 && height > 1.4
+    return "ENTER!"
+  else
+    return "sorry"
+  end
+end
