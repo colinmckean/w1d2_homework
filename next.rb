@@ -21,3 +21,7 @@ def bank_balance(pin_code)
     return "Incorrect Pin"
   end
 end
+
+def divide_function(num1, num2)
+  return num1 / num2 
+end
